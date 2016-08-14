@@ -6,13 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <style>
+      body {
+        font: normal 1em 'Helvetica Neue', Roboto, 'Open Sans', Helvetica, Arial, sans-serif;
+        background: #1d2025;
+        margin: 2em;
+      }
+      a,
+      h1 {
+        display: inline-block;
+        padding: 2px;
+        border-radius: 5px;
+        background: #15b17f linear-gradient(270deg, #9acd5a, #15b17f);
+        text-decoration: none;
+        transition: all .3s;
+        margin-right: 1em;
+        margin-bottom: 10px;;
+
+      }
+      a:hover {
+        display: inline-block;
+        padding: 2px;
+        //border-radius: 5px;
+        background: #15b17f linear-gradient(270deg, #15ffaa, #9affaa);
+        text-decoration: none;
+      }
+      a:hover span{
+        padding: .3em;
+        margin: .2em;
+
+      }
+      a span{
+        display: inline-block;
+        padding: .5em;
+        border-radius: 5px;
+        color: #fff;
+        background: #1d2025;
+        mix-blend-mode: darken;
+        width: 8em;
+        text-align: center;
+      }
+
+      #id{
+        width: 100%;
+        text-align: center;
+      }
+
+      .main-container{
+        width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+
+      }
+      .links{
+        display: inline-block;
+      }
+    </style>
+
   </head>
   <body>
-    <h1>Mtrsv.GitHub.io</h1>
-    <a href="https://mtrsv.github.io/kontur_matrix_calculator/">Matrix</a>
-    <a href="https://mtrsv.github.io/kontur_students-list/">Students</a>
-    <a href="https://mtrsv.github.io/lebedev_pamm-calculator/">Pamm</a>
-    <a href="https://mtrsv.github.io/lebedev_deposit-calculator/">Deposit</a>
+  <div class="main-container">
+    <h1 id="id">Mtrsv.GitHub.io</span></h1>
+    <div class="links">
+      <a href="https://mtrsv.github.io/kontur_matrix_calculator/"><span>Matrix</span></a><br>
+      <a href="https://mtrsv.github.io/kontur_students-list/"><span>Students</span></a><br>
+      <a href="https://mtrsv.github.io/lebedev_pamm-calculator/"><span>Pamm</span></a><br>
+      <a href="https://mtrsv.github.io/lebedev_deposit-calculator/"><span>Deposit</span></a><br>
+    </div>
+
+  </div>
+
 
   </body>
 </html>
