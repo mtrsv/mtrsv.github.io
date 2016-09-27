@@ -1,78 +1,108 @@
+<!-- Ilia Matrosov
+2016 -->
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
     <meta charset="UTF-8">
     <title>Mtrsv.GitHub.io by mtrsv</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <style>
-      body {
-        font: normal 1em 'Helvetica Neue', Roboto, 'Open Sans', Helvetica, Arial, sans-serif;
-        background: #1d2025;
-        margin: 2em;
-      }
-      a,
-      h1 {
-        display: inline-block;
-        padding: 2px;
-        border-radius: 5px;
-        background: #15b17f linear-gradient(270deg, #9acd5a, #15b17f);
-        text-decoration: none;
-        transition: all .3s;
-        margin-right: 1em;
-        margin-bottom: 10px;
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" media="screen">
 
-      }
-      a:hover {
-        display: inline-block;
-        padding: 2px;
-        //border-radius: 5px;
-        background: #15b17f linear-gradient(270deg, #15ffaa, #9affaa);
-        text-decoration: none;
-      }
-      a:hover span{
-        padding: .3em;
-        margin: .2em;
-
-      }
-      a span{
-        display: inline-block;
-        padding: .5em;
-        border-radius: 5px;
-        color: #fff;
-        background: #1d2025;
-        mix-blend-mode: darken;
-        width: 8em;
-        text-align: center;
-      }
-
-      #id{
-        width: 100%;
-        text-align: center;
-      }
-
-      .main-container{
-        width: 1000px;
-        margin: 0 auto;
-        text-align: center;
-
-      }
-      .links{
-        display: inline-block;
-      }
-    </style>
 
   </head>
   <body>
   <div class="main-container">
-    <h1 id="id">Mtrsv.GitHub.io</span></h1>
-    <div class="links">
-      <a href="https://mtrsv.github.io/kontur_matrix_calculator/"><span>Matrix</span></a><br>
-      <a href="https://mtrsv.github.io/kontur_students-list/"><span>Students</span></a><br>
-      <a href="https://mtrsv.github.io/lebedev_pamm-calculator/"><span>Pamm</span></a><br>
-      <a href="https://mtrsv.github.io/lebedev_deposit-calculator/"><span>Deposit</span></a><br>
-    </div>
+
+    <header class="main-header">
+      <h1 class="main-title" >Илья Матросов</span></h1>
+      <h2 class="main-title-caption">Верстаю, пишу на JS.</span></h2>
+    </header>
+
+    <article class="main-content">
+      <div class="works">
+        <div class="works-row">
+
+          <div class="work work-vertical">
+            <a class="work__image-container" href="https://mtrsv.github.io/kontur_students-list/">
+              <img class="work__image" src="images/works-students.jpg" alt="Список студентов">
+            </a>
+            <a href="https://mtrsv.github.io/kontur_students-list/">
+              <span class="work__caption">Список студентов</span>
+            </a>
+
+            <div  class="work-description">
+              Динамическая страница отображения списка студентов. Добавление и удаление студентов,
+              редактирование информации. Графики, визуализирующие данные о студентах.
+            </div>
+          </div>
+
+        </div>
+
+        <div class="works-row">
+          <div class="work work-half work-vertical">
+            <a class="work__image-container" href="https://mtrsv.github.io/kontur_matrix_calculator/">
+              <img class="work__image" src="images/works-matrix.jpg" alt="Умножение матриц">
+            </a>
+            <a href="https://mtrsv.github.io/kontur_matrix_calculator/">
+              <span class="work__caption">Умножение матриц</span>
+            </a>
+
+            <div class="work-description">
+              Калькулятор умеет умножать матрицы,
+              добавлять и удалять строки и столбцы.
+              Для более плотной компоновки матриц на экране,
+              есть возможность менять их местами.
+            </div>
+          </div>
+
+
+          <div class="work work-half work-vertical">
+            <a class="work__image-container" href="https://mtrsv.github.io/lebedev_pamm-calculator/">
+              <img class="work__image" src="images/works-pamm.jpg" alt="Памм-инвестиции">
+            </a>
+            <a href="https://mtrsv.github.io/lebedev_pamm-calculator/">
+              <span class="work__caption">Памм-инвестиции</span>
+            </a>
+
+            <div  class="work-description">
+              Калькулятор считает доход от инвестиций в ПАММ-счет
+              в зависимости от управляющего и начального вклада.
+            </div>
+          </div>
+        </div>
+
+        <div class="works-row">
+          <div class="work work-horizontal">
+            <a class="work__image-container" href="https://mtrsv.github.io/lebedev_deposit-calculator/">
+              <img class="work__image" src="images/works-deposit.jpg" alt="Калькулятор депозита">
+            </a>
+            <a href="https://mtrsv.github.io/lebedev_deposit-calculator/">
+              <span class="work__caption">Калькулятор депозита</span>
+            </a>
+
+            <div  class="work-description">
+              Калькулятор считает доход от депозита
+              в зависимости от начальной суммы
+              и срока вклада.
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </article>
+
+    <footer class="main-footer">
+      <hr class="footer-hr">
+      <a class="footer-link" href="https://ru.linkedin.com/in/mtrsv">Линкедин</a>
+      <a class="footer-link" href="https://github.com/mtrsv">Гитхаб</a>
+      <a class="footer-link" href="https://vk.com/mtrsv">Вконтакте</a>
+      <a class="footer-link" href="mailto:ilya.matrosov@yahoo.com">Электропочта</a>
+      <span class="footer-text">Илья Матросов, 2016</span>
+    </footer>
 
   </div>
 
