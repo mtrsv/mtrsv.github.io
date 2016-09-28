@@ -115,15 +115,38 @@ html {
   -moz-box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.75);
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.75);
   margin: 0 auto 15px;
-  font-size: 0; }
+  font-size: 0;
+  position: relative; }
+
+.work__image-container:hover .work__secondary-links {
+  opacity: 1; }
 
 .work__image {
   max-width: 100%; }
 
 .work__caption {
   font-size: 24px;
-  display: block;
   margin: 0 0 10px; }
+
+.work__secondary-links {
+  font-size: 15px;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  padding: 10px 20px;
+  background-color: white;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity .3s; }
+
+.work__secondary-links:hover {
+  opacity: 1; }
+
+.work__link {
+  margin-right: 30px; }
+
+.work__link:last-child {
+  margin-right: 0; }
 
 .work-description {
   font-size: 16px;
