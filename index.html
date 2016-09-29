@@ -8,22 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css" media="screen">
-
-
   </head>
   <body>
   <div class="main-container">
-
     <header class="main-header">
-      <h1 class="main-title" >Илья Матросов</span></h1>
-      <h2 class="main-title-caption">Верстаю, пишу на JS.</span></h2>
+      <h1 class="main-header__title" >Илья Матросов</span></h1>
+      <h2 class="main-header__title-caption">Верстаю, пишу на JS.</span></h2>
     </header>
 
     <article class="main-content">
       <div class="works">
         <div class="works-row">
 
-          <div class="work work-vertical">
+          <div class="work">
             <div class="work__image-container">
               <a href="https://mtrsv.github.io/kontur_students-list/">
                 <img class="work__image" src="images/works-students.jpg" alt="Список студентов">
@@ -44,7 +41,7 @@
               <span>Список студентов</span>
             </a>
 
-            <div  class="work-description">
+            <div  class="work__description">
               Динамическая страница отображения списка студентов. Добавление и удаление студентов,
               редактирование информации. Графики, визуализирующие данные о студентах.
             </div>
@@ -53,7 +50,7 @@
         </div>
 
         <div class="works-row">
-          <div class="work work-half work-vertical">
+          <div class="work work_half">
             <div  class="work__image-container">
               <a href="https://mtrsv.github.io/kontur_matrix_calculator/">
                 <img class="work__image" src="images/works-matrix.jpg" alt="Умножение матриц">
@@ -73,7 +70,7 @@
               <span>Умножение матриц</span>
             </a>
 
-            <div class="work-description">
+            <div class="work__description">
               Калькулятор умеет умножать матрицы,
               добавлять и удалять строки и столбцы.
               Для более плотной компоновки матриц на экране,
@@ -82,11 +79,12 @@
           </div>
 
 
-          <div class="work work-half work-vertical">
+          <div class="work work_half">
             <div class="work__image-container">
               <a href="https://mtrsv.github.io/lebedev_pamm-calculator/">
                 <img class="work__image" src="images/works-pamm.jpg" alt="Памм-инвестиции">
               </a>
+
               <div class="work__secondary-links">
                 <a class="work__link" href="http://www.artlebedev.ru/job/web-tech-ua-8/">
                   <span>Задание</span>
@@ -101,7 +99,7 @@
               <span>Памм-инвестиции</span>
             </a>
 
-            <div  class="work-description">
+            <div  class="work__description">
               Калькулятор считает доход от инвестиций в ПАММ-счет
               в зависимости от управляющего и начального вклада.
             </div>
@@ -109,11 +107,12 @@
         </div>
 
         <div class="works-row">
-          <div class="work work-horizontal">
+          <div class="work work_horizontal">
             <div class="work__image-container">
               <a href="https://mtrsv.github.io/lebedev_deposit-calculator/">
                 <img class="work__image" src="images/works-deposit.jpg" alt="Калькулятор депозита">
               </a>
+
               <div class="work__secondary-links">
                 <a class="work__link" href="http://www.artlebedev.ru/job/web-tech-ua-7/">
                   <span>Задание</span>
@@ -128,31 +127,25 @@
               <span>Калькулятор депозита</span>
             </a>
 
-            <div  class="work-description">
+            <div  class="work__description">
               Калькулятор считает доход от депозита
               в зависимости от начальной суммы
               и срока вклада.
             </div>
           </div>
         </div>
-
-
-
-
       </div>
     </article>
 
     <footer class="main-footer">
-      <hr class="footer-hr">
-      <a class="footer-link" href="https://ru.linkedin.com/in/mtrsv">Линкедин</a>
-      <a class="footer-link" href="https://github.com/mtrsv">Гитхаб</a>
-      <a class="footer-link" href="https://vk.com/mtrsv">Вконтакте</a>
-      <a class="footer-link" href="mailto:ilya.matrosov@yahoo.com">Электропочта</a>
-      <span class="footer-text">Илья Матросов, 2016</span>
+      <hr class="footer__hr">
+      <a class="footer__link" href="https://ru.linkedin.com/in/mtrsv">Линкедин</a>
+      <a class="footer__link" href="https://github.com/mtrsv">Гитхаб</a>
+      <a class="footer__link" href="https://vk.com/mtrsv">Вконтакте</a>
+      <a class="footer__link" href="mailto:ilya.matrosov@yahoo.com">Электропочта</a>
+      <span class="footer__text">Илья Матросов, 2016</span>
     </footer>
 
   </div>
-
-
   </body>
 </html>
